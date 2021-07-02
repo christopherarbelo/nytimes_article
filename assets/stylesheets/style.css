@@ -1,5 +1,15 @@
 html {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: georgia, "times new roman", times, serif;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
 }
 
 a {
@@ -56,4 +66,110 @@ a {
   border-radius: 2px;
   padding: 8px 12px;
   color: white;
+}
+
+/* main article */
+
+main {
+  width: 68%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.article-header {
+  margin: 60px auto 50px auto;
+}
+
+h1.article-title {
+  font-size: 32px;
+  font-style: italic;
+}
+
+.article-subheader {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+hr {
+  background: #ebebeb;
+  height: 1px;
+  border: 0;
+  margin: 20px 0;
+}
+
+.social-btn-wrapper {
+  display: flex;
+}
+
+.social-btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #eee;
+  margin-left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-btn:first-child {
+  margin: 0;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.caption {
+  color: #666;
+  margin-right: 20%;
+  line-height: 1.25em;
+  font-size: 16px;
+}
+
+.credit {
+  color: #888;
+  font-size: 0.9em;
+}
+
+.article-header,
+.text-section {
+  width: 60%;
+}
+
+/* article */
+.text-section {
+  margin: 20px auto;
+  font-size: 20px;
+}
+
+.text-section .figure {
+  margin: 30px 0;
+}
+
+/* article metadata */
+.article-metadata {
+  margin-bottom: 40px;
+}
+
+.article-credit {
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.article-date {
+  font-size: 0.9rem;
+  margin-left: 5%;
+}
+
+.article-text {
+  line-height: 1.5em;
+  margin-bottom: 20px;
+}
+
+.article-text:last-child {
+  margin-bottom: 0;
 }
